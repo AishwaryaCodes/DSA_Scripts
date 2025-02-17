@@ -1,3 +1,5 @@
+// Left Rotate Array by Given number of Elements. 
+
 function reverseArr(arr, s, e) {
     while(s < e) {
         let temp = arr[s];
@@ -12,23 +14,16 @@ function reverseArr(arr, s, e) {
 function leftRotateByK(arr, k) {
 
     let n = arr.length;
-
     k = k % n;
 
     reverseArr(arr, 0, k - 1);
-
     reverseArr(arr, k, n - 1);
-
     reverseArr(arr, 0, n - 1);
-
-  
     return arr;
 
 }
 
-
 arr = [1,2,3,4,5,6];
-
 console.log(leftRotateByK(arr, 2));
 
 
