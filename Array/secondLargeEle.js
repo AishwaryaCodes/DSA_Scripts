@@ -1,3 +1,5 @@
+// Find 2nd Largest Element in Array. 
+
 function  secondLargeEle(arr) {
     let large = arr[0];
     let slarge = -1;
@@ -18,3 +20,7 @@ function  secondLargeEle(arr) {
 arr = [2,5,3,8,0,1];
 
 console.log(secondLargeEle(arr));
+
+
+// Time complexity: O(N)
+// Space Complexity: O(1)
