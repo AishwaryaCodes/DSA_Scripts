@@ -1,19 +1,20 @@
 // Bubble Sort Algorithm
 
-let data = [4, 2, 7, 1];
+function bubbleSort(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    let swapped = false; // Track if a swap occurs
 
-console.log("Original Array:", data);
-
-// Bubble Sort Implementation
-for (let i = 0; i < data.length; i++) {
-    for (let j = 1; j < data.length; j++) {
-        if (data[j - 1] > data[j]) {
-            // Swap elements
-            let temp = data[j - 1];
-            data[j - 1] = data[j];
-            data[j] = temp;
-        }
+    for (let j = 0; j < arr.length - 1 - i; j++) {
+      if (arr[j] > arr[j + 1])
+        // Swap elements
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; // Swapping using destructuring
+        swapped = true;
     }
+    if (!swapped) break;
+  }
+  return arr;
 }
 
-console.log("Sorted Array:", data);
+arr = [6, 9, 2, 7, 4, 1];
+
+console.log(bubbleSort(arr));
