@@ -1,0 +1,72 @@
+New Features in ES6
+
+let & const keyword
+
+Arrow Functions (=>)
+
+Template Literals (``)
+
+Default Parameters
+
+Destructuring Assignment
+
+The ... Spred & Rest Operator
+
+Object Property Shorthand
+
+Enhanced Object Literals
+
+Promises(.then() & .catch())
+
+Classes & Inheritance
+
+JavaScript Modules (import/export)
+
+Map & Set Objects
+
+Symbol
+
+Generators(function*)
+
+Optional Chaining(?.)
+
+Nullish Coalescing(??)
+
+
+String Methods 
+String.includes()
+String.startsWith()
+String.endsWith()
+String.repeat()
+
+Array Methods 
+Array.includes()
+Array entries()
+Array.from()
+Array keys()
+Array find()
+Array findIndex()
+
+
+Math Methods
+Math.trunc()
+Math.sign()
+Math.cbrt()
+Math.log2()
+Math.log10()
+
+
+Numbers Methods
+Number.EPSILON
+Number.MIN_SAFE_INTEGER
+Number.MAX_SAFE_INTEGER
+Number.isInteger()
+Number.isSafeInteger()
+Number.isFinite()
+Number.isNaN()
+
+Object Methods
+Object.aasign()
+Object.key()
+Object.values()
+Object.entries()
