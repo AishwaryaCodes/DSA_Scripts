@@ -1,12 +1,12 @@
 // Assign Cookie problem using Greedy Algorithm. 
 
-function assignCookie(greed, cookie) {
+function assignCookie(child, cookie) {
 
     //Sort the array using sort function. 
-    greed.sort((a,b) => a - b);
+    child.sort((a,b) => a - b);
     cookie.sort((a,b) => a - b);
 
-    let n = greed.length;
+    let n = child.length;
     let m = cookie.length;
 
     let i = 0; // Track children
@@ -14,7 +14,7 @@ function assignCookie(greed, cookie) {
 
     
     while(i < n && j < m) {
-        if(cookie[j] >= greed[i]) {
+        if(cookie[j] >= child[i]) {
             i += 1
         }
         j += 1;

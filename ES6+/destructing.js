@@ -8,9 +8,9 @@ const fruit = ["apple", "banana", "mango"];
 // seccond - mango 
 // third , forth - undefined
 
-const [zero, first, second, third, forth ] = fruit;
+const [zeerow, first, second, , forth ] = fruit;
 
-console.log(zero, first, third, forth);
+console.log(zeerow, first, forth);
 
 
 //Object
@@ -23,3 +23,18 @@ const {nameObj, age} = person;
 
 console.log(nameObj, age);
 
+
+//Example 
+
+function calculate(a, b) {
+    const add = a + b;
+    const subtract = a - b;
+    const multiply = a * b;
+    const divide = a / b;
+  
+    return [add, subtract, multiply, divide];
+  }
+  
+  const [add, subtract, multiply, divide] = calculate(4, 7);
+
+  console.log(calculate(4,7));

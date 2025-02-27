@@ -4,14 +4,13 @@ function longestPrefixSuffix(str){
 
     let n = str.length;
 
-    let lps = [n];
-    lps[0] = 0; 
-
+    let lps = [0];
+  
     let len = 0;
     let i = 1;
 
     while(i < n) {
-        if(str[i] === str[len]) {
+        if(str[i] === str[len]) { 
             len++;
             lps[i] = len;
             i++;

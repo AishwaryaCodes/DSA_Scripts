@@ -2,7 +2,6 @@
 
 function gcdTwoString(str1, str2) {
 
-    
     function gcd(a,b) {
         return b === 0 ? a : gcd(b, a % b);  //Euclidean Algorithm - gcd(a,b)=gcd(b,a mod b)
     }
@@ -11,10 +10,16 @@ function gcdTwoString(str1, str2) {
 
     let candidate = "";
 
+    console.log("gcd of 2 string length" +len)
+
     for(let i = 0; i < len; i++){
         candidate += str1[i];
     }
     
+
+    console.log (str1 + str2)
+    console.log (str2 + str1)
+
     return (str1 + str2 === str2 + str1) ? candidate : "";
 }
 
