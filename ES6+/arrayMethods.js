@@ -33,3 +33,7 @@ console.log(keysIterator.next().value); // 1 - index of 2nd element in Array.
 
 // Array findIndex()
 console.log("Index of Cherry " + arr.findIndex(item => item === "cherry")); // findIndex() expects a callback function.
+
+// Array map method
+const myList = arr.map((i) => [i])
+console.log(myList)

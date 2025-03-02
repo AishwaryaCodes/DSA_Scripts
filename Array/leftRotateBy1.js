@@ -15,7 +15,7 @@ function leftRotateArrByOne(arr) {
 
 arr= [1,2,3,4];
 
-console.log(leftRotateArrByOne(arr));
+console.log(leftRotateArrByOne(arr)); // [ 2, 3, 4, 1 ]
 
 //My Solution Complexity
 //Time Complexity: O(n) - where n is the length of the arrays.

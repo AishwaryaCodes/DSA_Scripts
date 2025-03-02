@@ -1,4 +1,4 @@
-//Remove Dublicates from Sorted Array. 
+//Remove Dublicates from Sorted Array, and returm new array.
 
 function removeDublicates(arr) {
 

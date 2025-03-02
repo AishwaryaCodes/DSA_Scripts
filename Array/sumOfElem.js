@@ -1,3 +1,5 @@
+// Print total sum of all elements present in the array.
+
 function sumOfElem(num) {
     let sum = 0;
 
@@ -9,3 +11,6 @@ function sumOfElem(num) {
 }
 
 console.log(sumOfElem([1,2,3,4]));
+
+//Time Complexity: O(n) - where n is the length of the arrays.
+//Space Complexity: 𝑂(1) 

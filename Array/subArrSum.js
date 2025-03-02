@@ -14,18 +14,17 @@ function subArrSum(arr, target) {
        start++;
     }
 
-
     if(sum === target)  {
         return [start, end];
     }
-
 }
-
 return [];
-
 }
 
 arr = [15, 2, 4, 8, 9, 5, 10, 23];
 
 console.log(subArrSum(arr, 23) ) // Output: [1, 4]
 //Explanation: Sum of subarray arr[2…5] is 2 + 4 + 8 + 9 = 23.
+
+//Time Complexity:  
+//Space Complexity: 𝑂(1)

@@ -21,7 +21,7 @@ function twoSum(arr, target) {
 arr = [2,4,6,1,7];
 target = 9;
 
-console.log(twoSum(arr, target));
+console.log(twoSum(arr, target)); // [ 0, 4 ]
 
 //My Solution Complexity
 //Time Complexity: O(n) - where n is the length of the arrays.

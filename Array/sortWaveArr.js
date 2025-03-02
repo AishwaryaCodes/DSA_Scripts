@@ -1,4 +1,4 @@
-// Sort the array in wave form. 
+// Sort the array in wave form. - arr[0] > arr[1] < arr[2] > arr[3] < arr[4] > …
 
 function swap(arr, i, j) {
 let temp = arr[i];
