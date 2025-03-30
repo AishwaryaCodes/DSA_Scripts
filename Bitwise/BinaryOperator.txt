@@ -1,0 +1,33 @@
+Binary Operator 
+
+AND - &
+All True = True - All 1's = 1
+1 False = False - one time 0  = 0
+
+OR - |
+All False = False = All 0's = 0
+1 True = True - Atlease One True 1 = 1
+
+X0R ^
+num of 1's = Odd = 1
+num of 1's = Even = 0
+
+Right SHIFT >>
+a >> b = (a/2^b)
+
+Left SHIFT <<
+a << b = a * 2^b 
+
+NOT ~
++Ve num 
+
+-Ve num - convert to 2's complement
+
+
+Swap 2 num Formula:- 
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+
+
+

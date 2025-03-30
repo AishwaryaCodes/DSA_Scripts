@@ -6,6 +6,7 @@ function binaryToInt(binary) {
 
     // If Given binary num is negative
     let isNegative = false;
+    
     if(binary[0] === '-') {
         isNegative = true;
         let newBinary = '';

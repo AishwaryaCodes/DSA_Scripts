@@ -1,3 +1,5 @@
+// Longest Substring with K distince character.
+
 function maxSting(s, k) {
 
     let left = 0, right = 0, maxLen = 0, n = s.length;
