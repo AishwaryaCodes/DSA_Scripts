@@ -1,4 +1,4 @@
-# 🚀 DSA in JavaScript
+# 🚀 Data Structure Algorithms using JavaScript
 
 Welcome to **DSA_Scripts**! This repository contains well-structured and optimized implementations of **Data Structures and Algorithms (DSA)** in **JavaScript**. It serves as a great resource for learning, practicing, and improving problem-solving skills.
 
