@@ -1,0 +1,5 @@
+// 
+
+function degree(n) {
+    
+}
