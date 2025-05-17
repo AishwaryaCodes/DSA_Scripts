@@ -18,6 +18,3 @@ function maxProfit(prices) {
 
 let prices = [7, 1, 5, 3, 6, 4];
 console.log(maxProfit(prices)); // Output: 5
-
- git config --global user.email "aishwarya.kundur17@gmail.com"
- git config --global user.name "AishwaryaCodes"
