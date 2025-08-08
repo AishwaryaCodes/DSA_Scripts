@@ -48,3 +48,16 @@ Promise.resolve(1)
 .then((x) => console.log("Wont run"))
 .catch((e) => console.log("Caught:", e.message))
 .then(() => console.log("still runs"));
+
+console.log("************************");
+
+const p = new Promise(
+    (resolve) => {
+        setTimeout(() => {
+            resolve("I am Promise!");
+        }, 5000)
+    },
+    (reject) => {}
+);
+
+p.then((value) => console.log(value));

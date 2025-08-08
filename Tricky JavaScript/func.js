@@ -70,3 +70,16 @@ multi(1,2,3);
 
 const curry_unary = (a) => (b) => (c) => console.log(a + b + c);
 curry_unary(1)(2)(3);
+
+
+//callback functions
+function callbackFun(name) {
+    console.log("Hello" + name);
+}
+
+function outerFun(callback) {
+    let name = prompt("Please enter name");
+    callback(name);
+}
+
+outerFun(callbackFun);
