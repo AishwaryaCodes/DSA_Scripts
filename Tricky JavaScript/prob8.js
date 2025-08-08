@@ -38,3 +38,63 @@ const user3 = {
 };
 
 user3.eat();
+
+console.log("************************");
+
+let counter = 30;
+if(counter === 30) {
+    let counter = 31;
+    console.log(counter);
+}
+
+console.log(counter);
+
+console.log("************************");
+
+function userDetails(username) {
+    if(username) {
+       // console.log(salary);
+        //console.log(age);
+
+        var salary = 1000;
+        let age = 30;
+
+        
+    }
+}
+
+userDetails("AKUNDUR");
+
+console.log("************************");
+
+
+let count = 1;
+switch (count) {
+    case 0: {
+        let name;
+        break;
+    }   
+    case 1: { // if you dont use { } , then you will get error
+        let name; // re-declanation in switch case.
+        break;
+    }
+        
+}
+
+
+console.log("************************");
+
+function someMethod() {
+    //console.log("using let", m);  // Reference error
+    console.log("using var", n );
+    //console.log("using const", o); // Reference error
+
+    let m = 1;
+    var n = "good";
+    const o = 1;
+
+    console.log("using var", n );
+
+};
+
+someMethod();
